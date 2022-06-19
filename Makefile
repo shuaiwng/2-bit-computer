@@ -4,6 +4,7 @@ OBJ = 2bit.o
 EXE = 2bit 
 FLAGS = -Wall
 
+all: $(EXE)
 
 $(EXE):$(OBJ)
 	$(CXX) $(OBJ) -lstdc++ -o $(EXE)
