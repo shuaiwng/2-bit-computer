@@ -26,7 +26,6 @@ int main(){
 	arr_sum[bit_num] = arr_carry[bit_num+1] = '\0';
 	arr_carry[bit_num] = '0';
 
-	// Access to string[i] is error prone! Thus, char array is preferred.
 	for(uint i = bit_num; i > 0; i--){
 		arr_sum[i-1] = calc_sum(arr_A[i-1], arr_B[i-1], arr_carry[i]);
 		arr_carry[i-1] = calc_carry(arr_A[i-1], arr_B[i-1], arr_carry[i]);
