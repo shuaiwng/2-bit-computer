@@ -9,6 +9,7 @@ uint input_and_verify_int();
 string input_and_verify_str(string, uint);
 bool check_if_binary(string);
 
+
 int main(){
 	cout << "Hint: e.g. \"01\" is a 2-bit string" << endl;
 	cout << "-------------------------------------" << endl;
